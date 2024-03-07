@@ -1,0 +1,81 @@
+import os
+contadoTotal = 0
+contadorLetrasA = 0
+contadorLetrasE = 0
+contadorLetrasI = 0
+contadorLetrasO = 0
+contadorLetrasU = 0
+var_controlBln = True
+while var_controlBln == True:
+    os.system('cls')
+    opcionInt = int(input('Bienvenido al sistema contador de vocales\n1. Ingresar una letra\n2. Finalizar\n--> '))
+    if opcionInt == 2:
+        print('La letra a aparece: ',contadorLetrasA, 'veces')
+        print('La letra e aparece: ',contadorLetrasE, 'veces')
+        print('La letra i aparece: ',contadorLetrasI, 'veces')
+        print('La letra o aparece: ',contadorLetrasO, 'veces')
+        print('La letra u aparece: ',contadorLetrasU, 'veces')
+        print('La cantidad de letras totales es : ', contadoTotal)
+        var_controlBln = False
+      
+    if  opcionInt == 1:
+        letraStr = input("Ingrese la letra\n--> ")
+        if letraStr =="a" or  letraStr=="A":
+            contadorLetrasA += 1
+            contadoTotal+=1
+        if letraStr=="e" or letraStr == 'E':
+            contadorLetrasE += 1
+            contadoTotal+=1 
+        if letraStr ==  "i" or letraStr=='I':
+            contadorLetrasI += 1
+            contadorLetrasO +=1  
+        if letraStr == 'o' or letraStr=='O':
+            contadorLetrasO +=  1
+            contadoTotal += 1
+        if letraStr == 'u' or letraStr=='U':
+            contadorLetrasU += 1
+            contadoTotal += 1
+        if letraStr == 'b' or letraStr == 'B':
+            contadoTotal += 1
+        if letraStr == 'c' or letraStr == 'C':
+            contadoTotal += 1
+        if letraStr == 'd' or letraStr == 'D':
+            contadoTotal += 1
+        if letraStr == 'f' or letraStr == 'F':
+            contadoTotal += 1
+        if letraStr == 'g' or letraStr == 'G':
+            contadoTotal += 1
+        if letraStr == 'h' or letraStr == 'H':
+            contadoTotal += 1
+        if letraStr == 'j' or letraStr == 'J':
+            contadoTotal += 1
+        if letraStr == 'k' or letraStr == 'K':
+            contadoTotal += 1
+        if letraStr == 'l' or letraStr == 'L':
+            contadoTotal += 1
+        if letraStr == 'm' or letraStr == 'M':
+            contadoTotal += 1
+        if letraStr == 'n' or letraStr == 'N':
+            contadoTotal += 1
+        if letraStr == 'p' or letraStr == 'P':
+            contadoTotal += 1
+        if letraStr == 'q' or letraStr == 'Q':
+            contadoTotal += 1
+        if letraStr == 'r' or letraStr == 'R':
+            contadoTotal += 1
+        if letraStr == 's' or letraStr == 'S':
+            contadoTotal += 1
+        if letraStr == 't' or letraStr == 'T':
+            contadoTotal += 1
+        if letraStr == 'v' or letraStr == 'V':
+            contadoTotal += 1
+        if letraStr == 'w' or letraStr == 'W':
+            contadoTotal += 1
+        if letraStr == 'x' or letraStr == 'X':
+            contadoTotal += 1
+        if letraStr == 'y' or letraStr == 'Y':
+            contadoTotal += 1
+        if letraStr == 'z' or letraStr == 'Z':
+            contadoTotal += 1
+
+print('Programa finalizado')
